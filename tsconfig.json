@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "strict": true, // Optional, but helps with strict typing
+    "esModuleInterop": true, // Helps in importing non-ESM modules like react
+    "skipLibCheck": true, // Helps with dependencies' typings
+    "forceConsistentCasingInFileNames": true
+  }
+}
