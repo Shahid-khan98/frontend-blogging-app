@@ -64,6 +64,8 @@ h1 {
 .blog-item p {
   margin: 10px 0 0;
   color: #666;
+  max-height: 250px;
+  overflow: auto;
 }
 
 .blog-item button {

@@ -26,7 +26,8 @@ const App: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>My Blogging App</h1>
+        <h1>Welcome to BlogSphere!</h1>
+        <p>Start writing and sharing your thoughts with the world!</p>
       <BlogForm onAdd={addBlog} />
       <BlogList blogs={blogs} onDelete={deleteBlog} />
     </div>
